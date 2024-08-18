@@ -9,3 +9,4 @@ import random
 for i in range(6):
 	n = random.randint(1, 2000)
 	print(n)
+	print('This is the', i+1, 'time random numbers are generated')
